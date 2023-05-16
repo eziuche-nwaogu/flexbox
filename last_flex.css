@@ -1,0 +1,45 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.welcome {
+  height: 120vh;
+  background-size: cover;
+  background-image: url(IMG-20230509-WA0001.jpg);
+}
+header {
+  display: flex;
+  height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+}
+nav {
+  display: flex;
+  width: 50vw;
+  justify-content: space-between;
+  align-items: center;
+}
+.drop_down {
+  display: none;
+  background-color: rgb(37, 37, 37);
+  position: absolute;
+  margin-top: 20px;
+  width: fit-content;
+  padding: 5px;
+  margin-left: -50px;
+}
+nav a {
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+}
+.instagram:hover p,
+.facebook:hover p,
+.twitter:hover P {
+  display: block;
+}
